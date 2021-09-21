@@ -3,15 +3,15 @@
 	"tasks": [
 		{
 			"type": "gradle",
-			"id": "c:\\Users\\lewis\\Documents\\VisualStudioCode\\ForgeSandbox1.17.xrunClientForgeSandbox1.17.x",
+			"id": "C:\\Users\\Ummad\\OneDrive\\Documents\\VisualStudioCode\\ForgeSandbox1.17.xrunClientForgeSandbox1.17.x",
 			"script": "runClient",
 			"description": "",
 			"group": "forgegradle runs",
 			"project": "ForgeSandbox1.17.x",
-			"buildFile": "C:\\Users\\lewis\\Documents\\VisualStudioCode\\ForgeSandbox1.17.x\\build.gradle",
+			"buildFile": "C:\\Users\\Ummad\\OneDrive\\Documents\\VisualStudioCode\\ForgeSandbox1.17.x\\build.gradle",
 			"rootProject": "ForgeSandbox1.17.x",
-			"projectFolder": "c:\\Users\\lewis\\Documents\\VisualStudioCode\\ForgeSandbox1.17.x",
-			"workspaceFolder": "c:\\Users\\lewis\\Documents\\VisualStudioCode\\ForgeSandbox1.17.x",
+			"projectFolder": "C:\\Users\\Ummad\\OneDrive\\Documents\\VisualStudioCodeForgeSandbox1.17.x",
+			"workspaceFolder": "C:\\Users\\Ummad\\OneDrive\\Documents\\VisualStudioCode",
 			"args": "",
 			"javaDebug": false,
 			"problemMatcher": [
