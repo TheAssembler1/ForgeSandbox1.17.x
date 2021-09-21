@@ -1,13 +1,16 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern":[
-        "   ",
-        " s ",
+        "sss",
+        "sls",
         "sss"
     ],
     "key":{
         "s":{
-            "item": "minecraft:slime_ball"
+            "tag": "forge:slimeballs"
+        },
+        "l":{
+            "tag": "forge:gems/lapis"
         }
     },
     "result":{
