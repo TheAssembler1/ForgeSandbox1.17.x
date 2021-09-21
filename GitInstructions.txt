@@ -1,6 +1,6 @@
 Git Commands:
 	1. |git add .| add files to local commit queue
-	2. |git commit| commit the files to be pushed to github
+	2. |git commit --all| commit the files to be pushed to github
 	3. |git push| actually push local git to github
 General Purpose Commands:
 	1. |touch "file.ext"| create a file
