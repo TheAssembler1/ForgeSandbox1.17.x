@@ -1,0 +1,19 @@
+Git Commands:
+	1. |git add .| add files to local commit queue
+	2. |git commit| commit the files to be pushed to github
+	3. |git push| actually push local git to github
+General Purpose Commands:
+	1. |touch "file.ext"| create a file
+	2. |mv "file.ext newfilename.ext"| rename a file
+	3. |mv "file.ext "file path"| relocate a file
+	4. |mkdir "directory name"| create a directory
+	5. |rm "file.ext"| removes a file
+	6. |rm -r "directory name| removes a folder and everything in it
+	7. |vim file.ext| opens vim text edtor for give file
+	8. |cat "file.ext"| show context of file on cmd
+Vim Commands:
+	1. |Click I| Insert Mode you can now type text
+	2. |Click esc| You can now run vim commands
+	3. |Click :| followed by your command
+	4. |w| save file
+	5. |q| quit
