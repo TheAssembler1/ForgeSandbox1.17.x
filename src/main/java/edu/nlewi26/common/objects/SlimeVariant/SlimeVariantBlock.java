@@ -14,14 +14,14 @@ import net.minecraft.world.phys.Vec3;
 
 public class SlimeVariantBlock extends HalfTransparentBlock{
    public static final String[] slimeIDS = {"slimevariantblock1", "slimevariantblock2", "slimevariantblock3"};
-   public static final double[] addedSprings = {0.3, 0.6, 0.9};
+   public static final double[] addedSprings = {0.2 * (1/3), 0.2 * (2/3), 0.2 * (3/3)};
 
    public int slimeVariantNum;
 
    public static boolean logInfo = false;
 
    public SlimeVariantBlock(int slimeVariantNum) {
-      super(Block.Properties.of(Material.CLAY));
+      super(Block.Properties.of(Material.CLAY).jumpFactor(1f + (float)addedSprings[slimeVariantNum]));
 
       this.slimeVariantNum = slimeVariantNum;
    }
@@ -55,8 +55,8 @@ public class SlimeVariantBlock extends HalfTransparentBlock{
       //-(yvel * sc) / sc = -yvel
 
       if (vec3.y < 0.0D) {
-         double d0 = entity instanceof LivingEntity ? 1.0D: 0.8D;
-         double yFinalVel = -vec3.y * ((1D / 2D) * vec3.y);
+         double d0 = entity instanceof LivingEntity ? 1.0D + addedSprings[slimeVariantNum]: 0.8D + addedSprings[slimeVariantNum];
+         double yFinalVel = -vec3.y * d0;
 
          entity.setDeltaMovement(vec3.x, yFinalVel, vec3.z);
          LOGGER.info(yFinalVel);
