@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":[
+        "   ",
+        " s ",
+        "sss"
+    ],
+    "key":{
+        "s":{
+            "item": "minecraft:slime_ball"
+        }
+    },
+    "result":{
+        "item": "forgesandbox:slimevariantitem2"
+    }
+}
