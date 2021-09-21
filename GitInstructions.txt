@@ -5,6 +5,8 @@ Git Commands:
 	4. |git pull| pull from remote repo
 	5. |git checkout -b branch_name| create a new branch on local repo and switch to it
 	6. |git remote add upstream remoteRepoName| create upstream repo
+	7. |git branch| see local branches
+	8. |git branch -r| view the remote branches
 General Purpose Commands:
 	1. |touch "file.ext"| create a file
 	2. |mv "file.ext newfilename.ext"| rename a file
