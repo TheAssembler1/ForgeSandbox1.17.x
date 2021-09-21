@@ -1,6 +1,7 @@
 package edu.nlewi26.core;
 
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.registries.ForgeRegistries;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -16,9 +17,6 @@ public class Entry{
 
     public Entry() {
         LOGGER.info("NOTE::Enterred ForgeSandbox1.17.x");
-
-        //NOTE::Adding all registries to the event bus
-        Register.registerRegistries();
     }
 
     public static String getMOD_ID(){
