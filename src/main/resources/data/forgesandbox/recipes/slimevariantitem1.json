@@ -1,13 +1,16 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern":[
-        "   ",
-        "   ",
+        "sss",
+        "sqs",
         "sss"
     ],
     "key":{
         "s":{
-            "item": "minecraft:slime_ball"
+            "tag": "forge:slimeballs"
+        },
+        "q":{
+            "tag": "forge:gems/quartz"
         }
     },
     "result":{
