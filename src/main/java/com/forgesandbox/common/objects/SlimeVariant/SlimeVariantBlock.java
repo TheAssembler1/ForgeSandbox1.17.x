@@ -52,14 +52,11 @@ public class SlimeVariantBlock extends HalfTransparentBlock{
 
       Vec3 vec3 = entity.getDeltaMovement();
 
-      //-(yvel * sc) / sc = -yvel
-
       if (vec3.y < 0.0D) {
          double d0 = entity instanceof LivingEntity ? 1.0D + addedSprings[slimeVariantNum]: 0.8D + addedSprings[slimeVariantNum];
          double yFinalVel = -vec3.y * d0;
 
          entity.setDeltaMovement(vec3.x, yFinalVel, vec3.z);
-         LOGGER.info(yFinalVel);
       }
    }
   
