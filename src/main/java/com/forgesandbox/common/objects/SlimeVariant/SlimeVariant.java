@@ -6,7 +6,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraftforge.fmllegacy.RegistryObject;
 
 public class SlimeVariant {
-    public static void registerSlimeVariantBlocks(){    
+    public static void registerSlimeVariants(){    
         //NOTE::Creating the three variants of the slime blocks
         final RegistryObject<Block> slimeVarientBlock1 = Register.getDefferedRegisterBLOCKS().register(SlimeVariantBlock.slimeIDS[0], 
                                                                                                        () -> new SlimeVariantBlock(0));
