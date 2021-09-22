@@ -1,4 +1,4 @@
-package com.forgesandbox.common.objects.SlimeVariant.Elevator;
+package com.forgesandbox.common.Elevator;
 
 import static net.minecraft.world.item.CreativeModeTab.TAB_MISC;
 import net.minecraft.world.item.BlockItem;
