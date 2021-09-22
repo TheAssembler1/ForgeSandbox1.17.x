@@ -1,7 +1,7 @@
 package com.forgesandbox.common;
 
+import com.forgesandbox.common.Elevator.Elevator;
 import com.forgesandbox.common.objects.SlimeVariant.SlimeVariant;
-import com.forgesandbox.common.objects.SlimeVariant.Elevator.Elevator;
 import com.forgesandbox.core.Entry;
 
 import net.minecraft.world.item.Item;
@@ -18,7 +18,7 @@ public class Register {
         //NOTE::Registering slime variant blocks/items
         SlimeVariant.registerSlimeVariants();
         //NOTE::Registering elevator block/item
-        Elevator.registerElevator();
+        //Elevator.registerElevator();
 
         ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
         BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
