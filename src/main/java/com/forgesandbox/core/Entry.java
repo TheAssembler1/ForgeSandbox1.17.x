@@ -1,11 +1,11 @@
-package edu.nlewi26.core;
+package com.forgesandbox.core;
 
 import net.minecraftforge.fml.common.Mod;
 
+import com.forgesandbox.common.Register;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
-import edu.nlewi26.common.Register;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod("forgesandbox")

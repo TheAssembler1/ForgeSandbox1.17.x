@@ -1,4 +1,4 @@
-package edu.nlewi26.common.objects.SlimeVariant;
+package com.forgesandbox.common.objects.SlimeVariant;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.damagesource.DamageSource;
