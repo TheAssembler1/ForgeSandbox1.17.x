@@ -1,8 +1,9 @@
-package edu.nlewi26.common;
+package com.forgesandbox.common;
 
-import edu.nlewi26.common.objects.SlimeVariant.SlimeVariantBlock;
-import edu.nlewi26.common.objects.SlimeVariant.SlimeVariantBlockItem;
-import edu.nlewi26.core.Entry;
+import com.forgesandbox.common.objects.SlimeVariant.SlimeVariantBlock;
+import com.forgesandbox.common.objects.SlimeVariant.SlimeVariantBlockItem;
+import com.forgesandbox.core.Entry;
+
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;

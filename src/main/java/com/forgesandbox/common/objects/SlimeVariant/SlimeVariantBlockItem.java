@@ -1,4 +1,4 @@
-package edu.nlewi26.common.objects.SlimeVariant;
+package com.forgesandbox.common.objects.SlimeVariant;
 
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -9,6 +9,6 @@ public class SlimeVariantBlockItem extends BlockItem{
     public static final String[] slimeIDS = {"slimevariantitem1", "slimevariantitem2", "slimevariantitem3"};
 
     public SlimeVariantBlockItem(RegistryObject<Block> slimeVariantBlock) {
-        super(slimeVariantBlock.get(), new Properties().tab(CreativeModeTab.TAB_MISC));
+        super(slimeVariantBlock.get(), new Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS));
     }
 }
