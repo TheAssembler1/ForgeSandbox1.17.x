@@ -12,7 +12,7 @@ import org.apache.logging.log4j.Logger;
 public class Entry{
     private static final String MOD_ID = "forgesandbox";
 
-    private static final Logger LOGGER = LogManager.getLogger();
+    public static final Logger LOGGER = LogManager.getLogger();
 
     public Entry() {
         LOGGER.info("NOTE::Enterred ForgeSandbox1.17.x");

@@ -1,17 +1,30 @@
 package com.forgesandbox.common.Elevator;
 
+import com.forgesandbox.core.Entry;
+
+import net.minecraft.core.BlockPos;
+import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.EntityBlock;
+import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.block.entity.BlockEntityTicker;
+import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.material.Material;
-import java.lang.Object;
-import net.minecraft.world.level.block.ChestBlock;
 
-public class ElevatorBlock extends Block{
+public class ElevatorBlock extends Block implements EntityBlock{
     public ElevatorBlock() {
-        super(Properties.of(Material.SPONGE));
+        super(Properties.of(Material.WOOD));
     }
 
-    public boolean hasTileEntity(BlockState blockState){
-        return true;
+    @Override
+    public BlockEntity newBlockEntity(BlockPos blockPos, BlockState blockState) {
+        return new ElevatorBlockEntity(blockPos, blockState);
     }
+
+    @Override
+    public <T extends BlockEntity> BlockEntityTicker<T> getTicker(Level level, BlockState blockState, BlockEntityType<T> blockEntityType) {
+        return (Level level_, BlockPos blockPos, BlockState blockState_, T t) -> {
+        };
+     }
 }
