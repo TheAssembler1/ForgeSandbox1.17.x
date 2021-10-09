@@ -24,7 +24,7 @@ public class ElevatorBlock extends Block implements EntityBlock{
 
     @Override
     public <T extends BlockEntity> BlockEntityTicker<T> getTicker(Level level, BlockState blockState, BlockEntityType<T> blockEntityType) {
-        return (Level level_, BlockPos blockPos, BlockState blockState_, T t) -> {
+            return (Level level_, BlockPos blockPos, BlockState blockState_, T t) -> {
         };
      }
 }
