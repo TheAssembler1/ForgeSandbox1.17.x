@@ -22,11 +22,11 @@ public class Register {
         //NOTE::Registering slime variant blocks/items
         SlimeVariant.registerSlimeVariants();
         //NOTE::Registering elevator block/item
-        Elevator.registerElevator();
+        //Elevator.registerElevator();
 
         ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
         BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
-        BLOCK_ENTITY_TYPES.register(FMLJavaModLoadingContext.get().getModEventBus());
+        //BLOCK_ENTITY_TYPES.register(FMLJavaModLoadingContext.get().getModEventBus());
     }
 
     public static DeferredRegister<Item> getDefferedRegisterITEMS(){

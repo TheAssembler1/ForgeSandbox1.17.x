@@ -15,6 +15,13 @@ import net.minecraft.world.level.material.Material;
 
 public class ElevatorBlockEntity extends BlockEntity{
     public ElevatorBlockEntity(BlockPos blockPos, BlockState blockState) {
-        super(null, blockPos, blockState);
+        //FIXME::
+        /*
+        NOTE::Getting a crash when running code at this point,
+              might be because we are passsing null as first arg 
+              here?
+        */
+        super(Elevator.getElevatorBlockType(), blockPos, blockState);
+        //super(null, blockPos, blockState);
     }
 }
